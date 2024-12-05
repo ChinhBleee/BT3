@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+}
+
+header {
+  background-color: #516770;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+header:hover {
+  background-color: #648c9c;
+}
+
+.chasanpham {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+}
+.sanpham {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.sanpham img {
+  max-width: 100%;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.sanpham button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.sanpham button:hover {
+  background-color: #218838;
+}
+
+.danhgia {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  width: 500px;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 120%;
+  line-height: 25px;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #333333;
+  text-align: center;
+  padding: 10px 0;
+
+  color: white;
+  margin-top: 20px;
+}
